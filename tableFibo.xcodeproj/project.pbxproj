@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0E0BCFE2040B7EC005621BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E0BCFD2040B7EC005621BB /* AppDelegate.swift */; };
+		D0E0BD002040B7EC005621BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E0BCFF2040B7EC005621BB /* ViewController.swift */; };
+		D0E0BD032040B7EC005621BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E0BD012040B7EC005621BB /* Main.storyboard */; };
+		D0E0BD052040B7EC005621BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E0BD042040B7EC005621BB /* Assets.xcassets */; };
+		D0E0BD082040B7EC005621BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E0BD062040B7EC005621BB /* LaunchScreen.storyboard */; };
+		D0E0BD132040B7EC005621BB /* tableFiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E0BD122040B7EC005621BB /* tableFiboTests.swift */; };
+		D0E0BD1E2040B7EC005621BB /* tableFiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E0BD1D2040B7EC005621BB /* tableFiboUITests.swift */; };
+		D0E0BD2C2040B836005621BB /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E0BD2B2040B836005621BB /* MyTableViewController.swift */; };
+		D0E0BD2E2040B8C4005621BB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E0BD2D2040B8C4005621BB /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0E0BD0F2040B7EC005621BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0E0BCF22040B7EB005621BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E0BCF92040B7EB005621BB;
+			remoteInfo = tableFibo;
+		};
+		D0E0BD1A2040B7EC005621BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0E0BCF22040B7EB005621BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E0BCF92040B7EB005621BB;
+			remoteInfo = tableFibo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0E0BCFA2040B7EC005621BB /* tableFibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableFibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E0BCFD2040B7EC005621BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0E0BCFF2040B7EC005621BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0E0BD022040B7EC005621BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0E0BD042040B7EC005621BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0E0BD072040B7EC005621BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0E0BD092040B7EC005621BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E0BD0E2040B7EC005621BB /* tableFiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableFiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E0BD122040B7EC005621BB /* tableFiboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableFiboTests.swift; sourceTree = "<group>"; };
+		D0E0BD142040B7EC005621BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E0BD192040B7EC005621BB /* tableFiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableFiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E0BD1D2040B7EC005621BB /* tableFiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableFiboUITests.swift; sourceTree = "<group>"; };
+		D0E0BD1F2040B7EC005621BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E0BD2B2040B836005621BB /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		D0E0BD2D2040B8C4005621BB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0E0BCF72040B7EB005621BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E0BD0B2040B7EC005621BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E0BD162040B7EC005621BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0E0BCF12040B7EB005621BB = {
+			isa = PBXGroup;
+			children = (
+				D0E0BCFC2040B7EC005621BB /* tableFibo */,
+				D0E0BD112040B7EC005621BB /* tableFiboTests */,
+				D0E0BD1C2040B7EC005621BB /* tableFiboUITests */,
+				D0E0BCFB2040B7EC005621BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E0BCFB2040B7EC005621BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0E0BCFA2040B7EC005621BB /* tableFibo.app */,
+				D0E0BD0E2040B7EC005621BB /* tableFiboTests.xctest */,
+				D0E0BD192040B7EC005621BB /* tableFiboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E0BCFC2040B7EC005621BB /* tableFibo */ = {
+			isa = PBXGroup;
+			children = (
+				D0E0BCFD2040B7EC005621BB /* AppDelegate.swift */,
+				D0E0BCFF2040B7EC005621BB /* ViewController.swift */,
+				D0E0BD012040B7EC005621BB /* Main.storyboard */,
+				D0E0BD2D2040B8C4005621BB /* TableViewCell.swift */,
+				D0E0BD2B2040B836005621BB /* MyTableViewController.swift */,
+				D0E0BD042040B7EC005621BB /* Assets.xcassets */,
+				D0E0BD062040B7EC005621BB /* LaunchScreen.storyboard */,
+				D0E0BD092040B7EC005621BB /* Info.plist */,
+			);
+			path = tableFibo;
+			sourceTree = "<group>";
+		};
+		D0E0BD112040B7EC005621BB /* tableFiboTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0E0BD122040B7EC005621BB /* tableFiboTests.swift */,
+				D0E0BD142040B7EC005621BB /* Info.plist */,
+			);
+			path = tableFiboTests;
+			sourceTree = "<group>";
+		};
+		D0E0BD1C2040B7EC005621BB /* tableFiboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0E0BD1D2040B7EC005621BB /* tableFiboUITests.swift */,
+				D0E0BD1F2040B7EC005621BB /* Info.plist */,
+			);
+			path = tableFiboUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0E0BCF92040B7EB005621BB /* tableFibo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E0BD222040B7EC005621BB /* Build configuration list for PBXNativeTarget "tableFibo" */;
+			buildPhases = (
+				D0E0BCF62040B7EB005621BB /* Sources */,
+				D0E0BCF72040B7EB005621BB /* Frameworks */,
+				D0E0BCF82040B7EB005621BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tableFibo;
+			productName = tableFibo;
+			productReference = D0E0BCFA2040B7EC005621BB /* tableFibo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0E0BD0D2040B7EC005621BB /* tableFiboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E0BD252040B7EC005621BB /* Build configuration list for PBXNativeTarget "tableFiboTests" */;
+			buildPhases = (
+				D0E0BD0A2040B7EC005621BB /* Sources */,
+				D0E0BD0B2040B7EC005621BB /* Frameworks */,
+				D0E0BD0C2040B7EC005621BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E0BD102040B7EC005621BB /* PBXTargetDependency */,
+			);
+			name = tableFiboTests;
+			productName = tableFiboTests;
+			productReference = D0E0BD0E2040B7EC005621BB /* tableFiboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0E0BD182040B7EC005621BB /* tableFiboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E0BD282040B7EC005621BB /* Build configuration list for PBXNativeTarget "tableFiboUITests" */;
+			buildPhases = (
+				D0E0BD152040B7EC005621BB /* Sources */,
+				D0E0BD162040B7EC005621BB /* Frameworks */,
+				D0E0BD172040B7EC005621BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E0BD1B2040B7EC005621BB /* PBXTargetDependency */,
+			);
+			name = tableFiboUITests;
+			productName = tableFiboUITests;
+			productReference = D0E0BD192040B7EC005621BB /* tableFiboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0E0BCF22040B7EB005621BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Tomer Aharoni";
+				TargetAttributes = {
+					D0E0BCF92040B7EB005621BB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D0E0BD0D2040B7EC005621BB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D0E0BCF92040B7EB005621BB;
+					};
+					D0E0BD182040B7EC005621BB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D0E0BCF92040B7EB005621BB;
+					};
+				};
+			};
+			buildConfigurationList = D0E0BCF52040B7EB005621BB /* Build configuration list for PBXProject "tableFibo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0E0BCF12040B7EB005621BB;
+			productRefGroup = D0E0BCFB2040B7EC005621BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0E0BCF92040B7EB005621BB /* tableFibo */,
+				D0E0BD0D2040B7EC005621BB /* tableFiboTests */,
+				D0E0BD182040B7EC005621BB /* tableFiboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0E0BCF82040B7EB005621BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E0BD082040B7EC005621BB /* LaunchScreen.storyboard in Resources */,
+				D0E0BD052040B7EC005621BB /* Assets.xcassets in Resources */,
+				D0E0BD032040B7EC005621BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E0BD0C2040B7EC005621BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E0BD172040B7EC005621BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0E0BCF62040B7EB005621BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E0BD002040B7EC005621BB /* ViewController.swift in Sources */,
+				D0E0BD2E2040B8C4005621BB /* TableViewCell.swift in Sources */,
+				D0E0BD2C2040B836005621BB /* MyTableViewController.swift in Sources */,
+				D0E0BCFE2040B7EC005621BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E0BD0A2040B7EC005621BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E0BD132040B7EC005621BB /* tableFiboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E0BD152040B7EC005621BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E0BD1E2040B7EC005621BB /* tableFiboUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0E0BD102040B7EC005621BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E0BCF92040B7EB005621BB /* tableFibo */;
+			targetProxy = D0E0BD0F2040B7EC005621BB /* PBXContainerItemProxy */;
+		};
+		D0E0BD1B2040B7EC005621BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E0BCF92040B7EB005621BB /* tableFibo */;
+			targetProxy = D0E0BD1A2040B7EC005621BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0E0BD012040B7EC005621BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E0BD022040B7EC005621BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0E0BD062040B7EC005621BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E0BD072040B7EC005621BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0E0BD202040B7EC005621BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0E0BD212040B7EC005621BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0E0BD232040B7EC005621BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A25NJ664YH;
+				INFOPLIST_FILE = tableFibo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TomerAharoni.tableFibo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0E0BD242040B7EC005621BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A25NJ664YH;
+				INFOPLIST_FILE = tableFibo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TomerAharoni.tableFibo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0E0BD262040B7EC005621BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A25NJ664YH;
+				INFOPLIST_FILE = tableFiboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TomerAharoni.tableFiboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableFibo.app/tableFibo";
+			};
+			name = Debug;
+		};
+		D0E0BD272040B7EC005621BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A25NJ664YH;
+				INFOPLIST_FILE = tableFiboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TomerAharoni.tableFiboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableFibo.app/tableFibo";
+			};
+			name = Release;
+		};
+		D0E0BD292040B7EC005621BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A25NJ664YH;
+				INFOPLIST_FILE = tableFiboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TomerAharoni.tableFiboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tableFibo;
+			};
+			name = Debug;
+		};
+		D0E0BD2A2040B7EC005621BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A25NJ664YH;
+				INFOPLIST_FILE = tableFiboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TomerAharoni.tableFiboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tableFibo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0E0BCF52040B7EB005621BB /* Build configuration list for PBXProject "tableFibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E0BD202040B7EC005621BB /* Debug */,
+				D0E0BD212040B7EC005621BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E0BD222040B7EC005621BB /* Build configuration list for PBXNativeTarget "tableFibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E0BD232040B7EC005621BB /* Debug */,
+				D0E0BD242040B7EC005621BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E0BD252040B7EC005621BB /* Build configuration list for PBXNativeTarget "tableFiboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E0BD262040B7EC005621BB /* Debug */,
+				D0E0BD272040B7EC005621BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E0BD282040B7EC005621BB /* Build configuration list for PBXNativeTarget "tableFiboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E0BD292040B7EC005621BB /* Debug */,
+				D0E0BD2A2040B7EC005621BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0E0BCF22040B7EB005621BB /* Project object */;
+}
